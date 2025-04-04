@@ -20,8 +20,6 @@ Sure thing, Mahanandhan! Here's the **README content in bullet points** format *
 
 # schema creation
 
-Here are 5 key points about **schema** (commonly used in databases or APIs):
-
 Structure Definition: A schema defines the structure of data — including tables, fields, and data types in a database.
 
 Validation Rules: It enforces rules like required fields, data formats (e.g., strings, integers), and constraints (like unique or foreign keys).
