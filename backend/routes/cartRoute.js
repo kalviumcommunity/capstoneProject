@@ -2,7 +2,7 @@ import express from 'express';
 import { addToCart, removeFromCart, getCart } from '../controllers/cartController.js';
 import authMiddleware from '../middleware/auth.js';
 const cartRouter = express.Router();
-
+// using jwt that means we use authmiddleware here that means we used jwt in the folder of middleware
 cartRouter.post('/add',authMiddleware, addToCart);
 
 cartRouter.post('/remove',authMiddleware, removeFromCart);
