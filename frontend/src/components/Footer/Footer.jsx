@@ -3,6 +3,7 @@ import { assets } from '../../assets/assets'
 import './Footer.css'
 
 const Footer = () => {
+  // This is the footer component
   return (
     <div className='footer' id='footer'>
       <div className="footer-content">
