@@ -27,6 +27,7 @@ const loginUser = async (req, res) => {
     }
 }
 
+// Using jwt 
 const createToken = (id) => {
     return jwt.sign({id}, process.env.JWT_SECRET);
 }
