@@ -1,5 +1,5 @@
 import mongoose from 'mongoose'
-
+// The schema is connected to userController and cartController
 const userSchema = new mongoose.Schema({
     name: {
         type: String,

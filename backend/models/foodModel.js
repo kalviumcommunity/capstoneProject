@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-
+// The Schema is connected to the foodController
 const foodSchema = new mongoose.Schema({
     name: {
         type: String,
