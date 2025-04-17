@@ -2,7 +2,7 @@ import foodModel from "../models/foodModel.js";
 import fs from "fs";
 
 //add food items
-
+// The post method.
 const addFood = async (req, res) => {
     const image_filename = `${req.file}`;
     console.log(image_filename);
