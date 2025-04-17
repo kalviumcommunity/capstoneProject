@@ -5,6 +5,7 @@ import multer from 'multer';
 const foodRouter = express.Router(); 
 
 //Image storage Engine
+// File upload functionality
 const storage = multer.diskStorage({
     destination: "uploads",
     filename: (req, file, cb)=>{
