@@ -23,6 +23,7 @@ const LoginPopup = ({setShowLogin}) => {
     }
 
     const onLogin = async (event) => {
+      // implementing the authentication
       event.preventDefault();
       let newUrl = url;
       if(currState === "Login"){
