@@ -50,6 +50,7 @@ const Add = ({url}) => {
     <div className="add">
       <form className='flex-col' onSubmit={onSubmitHandler}>
         <div className="add-image-upload flex-col">
+            {/* upload image */}
             <p>Upload image</p>
             <label htmlFor="image">
                 <img src={image?URL.createObjectURL(image):assets.upload_area} alt="" />
