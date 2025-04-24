@@ -5,6 +5,7 @@ import fs from "fs";
 // The post method.
 const addFood = async (req, res) => {
     // File upload
+    // file upload
     const image_filename = `${req.file.filename}`;
     console.log(image_filename);
 
